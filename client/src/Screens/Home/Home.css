@@ -1,0 +1,221 @@
+.home {
+  margin-bottom: 26px;
+}
+
+.outstanding-shoes {
+  width: 100%;
+  height: 300px;
+}
+.outstanding-shoes ul {
+  list-style-type: none;
+  height: 270px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.outstanding-shoes span {
+  margin: 0px auto;
+  font-size: 40px;
+}
+
+.outstanding-shoes ul li {
+  height: 100%;
+  margin: 0px 6px;
+  border-radius: 6px;
+  width: 24%;
+  float: left;
+}
+
+.one-product-home-outstanding {
+  height: 100%;
+  position: relative;
+}
+
+.one-product-home-outstanding img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-home-outstanding img {
+  width: 100%;
+  height: 100%;
+  transition-delay: 0.2s;
+}
+
+.grade-level-outstanding {
+  width: 100%;
+  height: 100%;
+  transition-delay: 0.2s;
+  position: absolute;
+  background: #00000040;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  visibility: hidden;
+  transition-duration: 0.5s;
+  transform: rotate(100deg) skewX(46deg);
+}
+
+.one-product-home-outstanding:hover .grade-level-outstanding {
+  opacity: 1;
+  visibility: visible;
+  transform: rotate(0deg);
+}
+
+.name-outstanding {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  color: white;
+  z-index: 6;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-left: -25%;
+  margin-top: -5%;
+  font-weight: bold;
+  transition-delay: 0.2s;
+  transform: skewX(-46deg);
+  opacity: 0;
+  visibility: hidden;
+}
+.one-product-home-outstanding:hover .name-outstanding {
+  opacity: 1;
+  visibility: visible;
+  transform: rotate(0deg);
+}
+
+.type-shoes-home {
+}
+
+.title-shoes-home {
+  position: relative;
+  /* margin: 1rem; */
+  padding: 3rem 0rem;
+}
+
+.name-title-page-home {
+  position: absolute;
+  text-align: center;
+  left: 47%;
+  font-size: 25px;
+  text-transform: uppercase;
+  background: white;
+  z-index: 3;
+  padding: 0px 21px;
+  margin-left: -55px;
+  top: 26px;
+}
+
+.dotted-title-home {
+  position: absolute;
+  border: 1px dotted black;
+  width: 90%;
+  margin-left: 50%;
+  left: -45%;
+}
+
+.list-product-safe-off-page-home {
+  margin-top: 1rem;
+}
+
+.list-product-safe-off-page-home ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: -33px;
+}
+
+.list-product-safe-off-page-home ul li {
+  width: 23%;
+  margin-bottom: 22px;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+.product-safe-off-page-home {
+  width: 100%;
+  position: relative;
+  line-height: 23px;
+}
+.product-safe-off-page-home .percent-discount-product-safe-off-page-home {
+  position: absolute;
+  background: red;
+  padding: 5px 10px;
+  top: 10px;
+  left: 7px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  z-index: 5;
+  color: yellow;
+}
+
+.product-safe-off-page-home img {
+  width: 100%;
+}
+.name-by-product-safe-off-page-home {
+  text-align: center;
+  padding: 0px 25px;
+}
+
+.star-by-product-in-home {
+  text-align: center;
+}
+
+.price-by-product-in-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 8px auto;
+}
+
+.price-by-product-in-home-safe-off {
+  position: relative;
+  color: gray;
+  margin-right: 11px;
+}
+
+.safe-off-price-old-in-home {
+  border-bottom: 1px solid red;
+  display: block;
+  width: 83px;
+  position: absolute;
+  top: 11px;
+  left: -3px;
+}
+
+.price-cost-in-home {
+}
+
+.see-more-products-page-home {
+  margin: 10px auto;
+  display: table;
+  text-decoration: blink;
+  text-transform: capitalize;
+  border: 1px solid black;
+  padding: 10px 10px;
+  color: black;
+}
+
+.free-shipper-in-page-home {
+}
+
+.free-shipper-in-page-home img {
+  margin: 10px auto;
+  display: block;
+}
+.free-shipper-in-page-home p,
+.free-shipper-in-page-home span {
+  margin: 10px auto;
+  display: table;
+  color: white;
+  line-height: 15px;
+}
+.free-shipper-in-page-home span {
+}
+
+.info-shipper-home {
+  margin-top: -113px;
+  margin-bottom: 17px;
+}

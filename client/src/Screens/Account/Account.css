@@ -1,0 +1,160 @@
+.account {
+  width: 95%;
+  margin: 10px auto;
+  padding-bottom: 15px;
+}
+.account h3 {
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 30px 5px 0px 5px;
+}
+
+.info-account {
+  border: 1px solid #47474257;
+  width: 75%;
+  overflow: hidden;
+}
+.info-account ul {
+  list-style-type: none;
+  display: contents;
+}
+
+.info-account ul li {
+  line-height: 50px;
+}
+
+.info-account ul li:first-child {
+  border-bottom: 1px solid gray;
+  width: 100%;
+  padding: 20px;
+}
+.info-account ul li:first-child span {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.info-account ul li span {
+}
+.info-account ul li:last-child {
+}
+
+.list-order-account {
+}
+
+.update-avatar-account {
+  text-align: center;
+  margin-left: 45px;
+}
+
+.info {
+  display: flex;
+  padding: 10px 150px;
+}
+
+.info-account-user {
+  padding: 10px 30px;
+}
+
+.form-group-account {
+}
+
+.form-group-account textarea {
+  width: 27rem;
+  height: 7rem;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.form-group-account label {
+  font-size: 20px;
+  margin-right: 16px;
+}
+.form-group-account span {
+  font-size: 22px;
+}
+.form-group-account span.address-account,
+.form-group-account span.name-account {
+  text-transform: capitalize;
+}
+
+.avatar-account {
+  width: 150px;
+  margin: 10px auto;
+}
+.avatar-account img {
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid green;
+}
+.update-avatar,
+.update-address,
+.logout-account {
+  border: 1px solid gray;
+  padding: 9px;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.list-order-in-account {
+  margin: 10px auto;
+  display: table;
+}
+
+.list-order-in-account p {
+}
+
+.list-order-in-account table {
+}
+.list-order-in-account table thead {
+}
+.list-order-in-account table thead tr {
+}
+.list-order-in-account table thead tr th {
+  padding: 10px 40px;
+}
+.list-order-in-account table tbody {
+}
+.list-order-in-account table tbody tr {
+}
+.list-order-in-account table tbody tr td {
+  text-align: center;
+  padding: 10px;
+}
+.list-order-in-account th,
+td {
+  border: 1px solid black;
+}
+.form-group-account p {
+  margin-top: -20px;
+}
+
+.city-account {
+  position: relative;
+  float: left;
+  margin: 10px 5px;
+  margin-top: -37px;
+}
+.city-account label {
+  position: absolute;
+  top: 24px;
+  left: 19px;
+  z-index: 6;
+  background: white;
+  height: 47px;
+}
+.city-account select {
+  height: 4rem;
+  width: 13rem;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.city-account select option {
+}
+.option-account {
+  width: 100%;
+  display: inline-block;
+}

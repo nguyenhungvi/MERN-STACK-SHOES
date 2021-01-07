@@ -1,0 +1,55 @@
+.card {
+  padding: 10px 20px;
+  box-shadow: 5px 5px 5px 5px grey;
+  margin-top: 50px;
+  float: left;
+  margin: 15px 18px;
+}
+
+.page {
+  margin-top: 100px;
+}
+
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.select-image {
+  border: 1px dotted gray;
+  width: 100px;
+  padding: 27px;
+  height: 100px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.image-category {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.insert-update-category {
+  box-shadow: 5px 5px 5px 5px grey;
+  padding: 25px 29px;
+  height: 500px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.search-category {
+  display: flex;
+}
+
+.search-category button {
+  width: 178px;
+  margin-left: 15px;
+}
+
+.add-search-category {
+}

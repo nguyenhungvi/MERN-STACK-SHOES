@@ -1,0 +1,27 @@
+.slide-image{
+    display: flex;
+}
+.slide-image ul{
+    list-style: none;
+    width: 50px;
+}
+.slide-image ul li{
+    width: 100%;
+}
+.slide-image ul li img{
+    width: 100%;
+}
+
+.slide-image ul li.active img{
+    border: 3px solid black;
+}
+
+.show-image{
+    width: 320px;
+    border: 1px solid gray;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.show-image img{
+    width: 100%;
+}

@@ -1,0 +1,55 @@
+.order-checkout {
+  padding: 20px 60px;
+}
+.thank-customer-page-order-checkout {
+  text-align: center;
+}
+.thank-customer-page-order-checkout svg {
+  font-size: 7rem;
+}
+
+.thank-customer-page-order-checkout h3 {
+  font-size: 3rem;
+  margin: -3px;
+}
+.thank-customer-page-order-checkout p {
+  margin: -2px 0px 20px 0px;
+  color: #3b3838;
+}
+
+.code-page-order-checkout {
+  background: #8080806b;
+  width: 48%;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 5px;
+}
+.code-page-order-checkout span {
+  color: black;
+}
+
+.info-order-address-page-order-checkout {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+
+.order-page-payment-checkout.page-order-checkout {
+  width: 45%;
+}
+.address-page-order-checkout.page-order-checkout {
+  width: 45%;
+  margin-top: 20px;
+}
+
+.total-money-page-payment-checkout.page-order-checkout {
+  padding: 15px 17px;
+}
+
+.ordered-page-payment-checkout.page-order-checkout {
+  margin: 1rem auto;
+  width: 13rem;
+  margin-bottom: -16px;
+  display: block;
+  text-decoration: none;
+}

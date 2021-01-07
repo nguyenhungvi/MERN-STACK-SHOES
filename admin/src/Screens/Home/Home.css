@@ -1,0 +1,60 @@
+.icon-page-home {
+  font-size: 50px;
+  color: red;
+}
+
+.border-page-home {
+  padding: 25px 10px;
+  margin: 5px;
+  box-shadow: 4px 4px 6px 3px #2347665e;
+}
+
+.detail-page-home {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+}
+.detail-page-home span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.detail-page-home span:last-child {
+  font-weight: 600;
+}
+
+.list-customer,
+.list-reviews {
+  padding: 5px 12px;
+  margin: 5px;
+  box-shadow: 4px 4px 18px 11px #2347665e;
+}
+
+.one-customer-page-home,
+.one-review-page-home {
+  margin: 10px 0px;
+}
+.one-customer-page-home span,
+.one-review-page-home span {
+  font-size: 18px;
+  margin-left: 11px;
+  text-transform: capitalize;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+  color: black !important;
+}
+
+.list-reviews {
+}
+
+.one-review-page-home {
+}
+
+.one-review-page-home span {
+  margin-left: 0px;
+}

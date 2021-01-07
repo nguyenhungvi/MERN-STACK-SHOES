@@ -1,0 +1,20 @@
+.icon-shoes {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-nav ul {
+  list-style-type: none;
+  margin-top: 20px;
+}

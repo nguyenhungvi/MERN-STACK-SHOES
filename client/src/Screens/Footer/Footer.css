@@ -1,0 +1,67 @@
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.footer ul li {
+  line-height: 50px;
+  width: 40%;
+  margin: 0px 22px;
+}
+.footer ul li h4 {
+  text-transform: uppercase;
+  font-size: 22px;
+  color: white;
+}
+
+.footer ul li ul {
+  display: block;
+  margin-left: -21px;
+}
+.footer ul li ul li {
+  width: 100%;
+  line-height: 35px;
+}
+.footer ul li ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  width: 100%;
+}
+
+.footer ul li input {
+  border: none !important;
+  border-bottom: 1px solid black !important;
+  height: 40px !important;
+  width: 74% !important;
+  font-size: 20px !important;
+  outline: none;
+  text-align: center;
+  border-radius: 0px 10px 0px 10px;
+}
+
+.footer ul li p {
+  color: white;
+}
+
+.icon-by-footer {
+}
+
+.icon-footer {
+  border: 1px solid white;
+  padding: 16px;
+  border-radius: 50%;
+  font-size: 30px;
+  margin: 0px 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.info-footer,
+.address-footer,
+.phone-footer {
+  font-size: 20px;
+  line-height: 35px;
+  color: white;
+}

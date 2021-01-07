@@ -1,0 +1,13 @@
+.icon-detail {
+  font-size: 30px;
+}
+
+.icon-delete {
+  color: red;
+  font-size: 31px;
+  position: absolute;
+  top: 3px;
+  right: 187px;
+  font-weight: bold;
+  cursor: pointer;
+}

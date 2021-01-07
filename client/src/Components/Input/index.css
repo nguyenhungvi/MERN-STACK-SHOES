@@ -1,0 +1,8 @@
+.input-text {
+  width: 27rem !important;
+  height: 34px;
+  border: none !important;
+  border-bottom: 1px solid gray !important;
+  font-size: 19px;
+  outline: none;
+}

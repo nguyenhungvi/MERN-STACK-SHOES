@@ -1,0 +1,35 @@
+.signin-checkout {
+  text-align: center;
+}
+
+.info-signin-checkout {
+}
+.info-signin-checkout svg {
+  font-size: 45px;
+  color: #2b9da8;
+}
+
+.handle-click-signin-checkout {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.continue-payment-signin-checkout {
+  background: black;
+  color: white;
+  text-transform: CAPITALIZE;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+
+.no-account-signin-checkout {
+}
+.no-account-signin-checkout span {
+}
+.no-account-signin-checkout a {
+  text-decoration: none;
+  color: black;
+  margin-left: 3px;
+  text-transform: capitalize;
+}

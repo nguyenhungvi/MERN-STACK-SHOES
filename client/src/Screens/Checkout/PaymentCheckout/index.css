@@ -1,0 +1,106 @@
+.payment-checkout {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 20px;
+}
+.select-method-page-payment-checkout {
+  width: 65%;
+  text-align: left;
+  padding: 10px 18px;
+  min-height: 122px;
+  display: inline-table;
+  box-shadow: 3px 3px 6px 1px grey;
+}
+.select-method-page-payment-checkout h4 {
+}
+.option-payment-checkout {
+}
+
+.option-payment-checkout ul {
+  margin-left: -40px;
+}
+
+.option-payment-checkout label {
+}
+.option-payment-checkout input {
+}
+.option-payment-checkout div {
+}
+
+.info-address-order-page-payment-checkout {
+  width: 30%;
+}
+.delivery-address-page-payment-checkout {
+  text-align: left;
+  box-shadow: 1px 1px 3px 1px grey;
+}
+
+.delivery-address-page-payment-checkout p {
+  text-transform: capitalize;
+}
+
+.title-delivery-address-page-payment-checkout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.delivery-address-page-payment-checkout div {
+  padding: 4px 20px;
+}
+
+.title-delivery-address-page-payment-checkout div {
+}
+
+.title-delivery-address-page-payment-checkout h3 {
+}
+.edit-title-delivery-address-page-payment-checkout {
+  border: 1px solid gray;
+  color: gray;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.title-delivery-address-page-payment-checkout p {
+}
+.order-page-payment-checkout {
+  text-align: left;
+  box-shadow: 1px 1px 3px 1px grey;
+  margin-top: 20px;
+}
+
+.order-page-payment-checkout div {
+  padding: 4px 20px;
+}
+
+.total-money-page-payment-checkout {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+}
+.total-money-page-payment-checkout span {
+}
+
+.ordered-page-payment-checkout {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  width: 5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.image-by-product-cart-in-page-address-checkout.page-payment-checkout {
+  padding: 4px 7px;
+}
+.image-by-product-cart-in-page-address-checkout.page-payment-checkout img {
+  width: 40px;
+}
+
+.quantity-product-cart-in-page-address-checkout.page-payment-checkout {
+}
+.name-product-cart-in-page-address-checkout.page-payment-checkout {
+}

@@ -1,0 +1,16 @@
+.icon-arrow-left {
+  position: absolute;
+  left: -26px;
+  font-size: 23px;
+  top: -2px;
+}
+#error_name,
+#error_email,
+#error_password{
+  color: red;
+  display: none;
+}
+
+.form-group input{
+  width: 24rem!important;
+}

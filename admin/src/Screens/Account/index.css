@@ -1,0 +1,80 @@
+.img-account {
+  width: 76%;
+}
+
+.PerformanceTable.p-account tr th:nth-child(1),
+.PerformanceTable.p-account tr td:nth-child(1) {
+  width: 4rem;
+}
+
+.PerformanceTable.p-account tr th:nth-child(2),
+.PerformanceTable.p-account tr td:nth-child(2) {
+  width: 10rem;
+}
+
+.PerformanceTable.p-account tr th:nth-child(3),
+.PerformanceTable.p-account tr td:nth-child(3) {
+  width: 9rem;
+}
+
+.PerformanceTable.p-account tr th:last-child,
+.PerformanceTable.p-account tr td:last-child {
+  width: 9rem;
+}
+
+.PerformanceTable.p-account {
+  width: 72rem;
+}
+
+.backgroud-account {
+  background: #000000b8;
+  width: 80%;
+  height: 102%;
+  position: fixed;
+  top: 0px;
+  /* right: -30rem; */
+  right: -72rem;
+  /* box-shadow: 5px 5px 5px 5px #151414; */
+  opacity: 0;
+  visibility: hidden;
+  z-index: 20;
+  transition-delay: 1s;
+  transition: 2s;
+}
+
+.backgroud-account.active {
+  opacity: 1;
+  visibility: visible;
+  /* right: 0rem; */
+}
+
+.page {
+  position: relative !important;
+}
+
+.close-background-account {
+}
+.close-background-account svg {
+  color: white;
+  font-size: 41px;
+  font-weight: bold;
+  border: 3px solid gray;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-left: 11px;
+  cursor: pointer;
+}
+
+.class-tr td {
+  line-height: 19px !important;
+  text-align: left;
+}
+
+.class-th {
+}
+.class-th th {
+}
+
+.class-th th:first-child {
+  width: 13rem;
+}

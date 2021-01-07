@@ -1,0 +1,22 @@
+.MuiStep-horizontal {
+  text-transform: capitalize;
+}
+
+.makeStyles-root-58 div {
+  text-align: center;
+}
+.makeStyles-instructions-6,
+.makeStyles-instructions-3,
+.makeStyles-instructions-7 {
+  margin-top: 3px !important;
+  padding: 54px !important;
+  width: 88% !important;
+  margin: 10px auto !important;
+  text-align: center !important;
+}
+
+.makeStyles-root-1 {
+  width: 100%;
+  line-height: 100px;
+  text-align: center;
+}

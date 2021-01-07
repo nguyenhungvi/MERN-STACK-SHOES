@@ -1,0 +1,43 @@
+#page-numbers {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+#page-numbers li {
+}
+
+#page-numbers li.disabled span {
+  opacity: 0.5;
+  cursor: none;
+}
+
+#page-numbers li div {
+  border: 1px solid gray;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+#page-numbers li.active div {
+  background: black;
+  color: white;
+  font-weight: bold;
+}
+
+#btnPrev {
+  border: 1px solid gray;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.disabled span#btnNext {
+  border: 1px solid gray;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: none;
+}
+
+.pagination {
+  width: 52%;
+  margin: 5px auto;
+}

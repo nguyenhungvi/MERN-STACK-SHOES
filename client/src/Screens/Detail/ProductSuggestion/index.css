@@ -1,0 +1,75 @@
+.product-suggestion {
+  position: relative;
+}
+.product-suggestion ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* margin-left: -28px; */
+}
+.product-suggestion ul li {
+  width: 23%;
+  box-shadow: 1px 5px 9px 1px grey;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.one-product-suggestion-by-category {
+  padding: 12px;
+  position: relative;
+  line-height: 46px;
+}
+.one-product-suggestion-by-category a {
+  width: 100%;
+}
+
+.percent-discount-product-suggestion {
+  position: absolute;
+  background: red;
+  padding: 5px 10px;
+  top: 10px;
+  left: 7px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  z-index: 5;
+  color: yellow;
+}
+
+.one-product-suggestion-by-category a img {
+  width: 100%;
+}
+
+.name-by-product-suggestion {
+  text-align: center;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.star-by-product-suggestion {
+  text-align: center;
+  margin-top: -10px;
+}
+.star-by-product-suggestion svg {
+  font-size: 25px;
+}
+
+.price-by-product-suggestion {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.safe-off-price-old-in-category-suggestion {
+  position: absolute;
+  width: 86px;
+  border: 1px solid black;
+  top: 8px;
+  left: -6px;
+}
+
+.price-cost-in-category-suggestion {
+  color: black;
+}

@@ -1,0 +1,194 @@
+.comments {
+}
+
+.title-customer-comments {
+  margin: 10px auto;
+}
+.title-customer-comments ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 1px 5px 1px grey;
+}
+.title-customer-comments ul li {
+  line-height: 63px;
+}
+.title-customer-comments ul li span {
+  font-size: 25px;
+}
+.title-customer-comments ul li svg {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.list-comments {
+  padding: 0px 54px;
+}
+.list-comments ul {
+  list-style-type: none;
+  width: 94%;
+  margin: 10px auto;
+  margin-left: 0px;
+}
+.list-comments ul li {
+  box-shadow: 1px 1px 1px 1px grey;
+  width: 100%;
+  margin-top: 20px;
+  height: 164px;
+}
+
+.info-customer-in-comment {
+  padding: 13px 26px;
+}
+.info-in-comment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  margin-top: 10px;
+}
+.info-in-comment img {
+  width: 80px;
+  border-radius: 50%;
+}
+.name-and-content-in-comment {
+  line-height: 2px;
+  margin-left: 10px;
+  margin-top: -14px;
+}
+.name-and-content-in-comment div {
+  font-size: 19px;
+}
+.name-and-content-in-comment p {
+  font-size: 21px;
+  text-transform: capitalize;
+}
+
+.content-comment {
+  font-size: 20px;
+  margin-top: -7px;
+  padding: 10px 20px;
+  text-align: justify;
+  margin-left: -26px;
+  display: inline-block;
+}
+
+.name-and-email-comment {
+  display: flex;
+  /* border: 1px solid; */
+  line-height: 10px;
+}
+
+.name-and-email-comment label {
+  font-size: 23px;
+  margin-bottom: 7px;
+  display: inline-block;
+}
+
+.form-name-and-email-comment.form-group {
+  margin: 20px;
+  position: relative;
+  width: 50%;
+}
+
+.form-name-and-email-comment.form-group input {
+  width: 100% !important;
+  height: 53px;
+  text-transform: capitalize;
+  padding-left: 16px !important;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.form-name-and-email-comment.form-group label {
+  position: absolute;
+  top: 6px;
+  background: white;
+  left: 16px;
+  z-index: 5;
+  padding: 0px 10px;
+}
+
+.form-comment.form-group {
+  width: 100%;
+  position: relative;
+  line-height: 10px;
+}
+
+.form-comment.form-group label {
+  position: absolute;
+  top: 6px;
+  background: white;
+  left: 16px;
+  z-index: 5;
+  padding: 0px 10px;
+}
+
+.form-comment.form-group textarea {
+  width: 95%;
+  height: 7rem;
+  padding: 17px;
+  font-size: 20px;
+  /* text-transform: capitalize; */
+  border-radius: 10px;
+}
+
+.name-and-email-comment input {
+  padding-left: 5px !important;
+  width: 20rem !important;
+}
+
+.name-and-email-comment small {
+  font-size: 15px;
+  color: red;
+  display: none;
+}
+
+.form-comments {
+  margin: 10px auto;
+  padding: 0px 100px;
+}
+
+.form-comments label {
+  font-size: 23px;
+  margin-bottom: 7px;
+  display: inline-block;
+}
+
+.form-comments textarea {
+  width: 63%;
+  height: 7rem;
+}
+
+.form-comments small {
+  font-size: 15px;
+  color: red;
+  display: none;
+}
+
+.form-comments button {
+  font-size: 20px;
+  color: white;
+  text-transform: capitalize;
+  border: 1px solid black;
+  background: black;
+  padding: 8px 34px;
+  cursor: pointer;
+  margin-top: -10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.form-comments h5 {
+  font-size: 28px;
+  margin: 6px 0px;
+}
+
+.form-comments ul {
+  margin-bottom: -27px !important;
+}
+#error_star {
+  margin-top: 38px;
+  display: block !important;
+  margin-bottom: -37px;
+}

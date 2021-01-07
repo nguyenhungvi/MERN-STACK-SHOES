@@ -1,0 +1,53 @@
+/* html {
+  height: 100%;
+}
+body {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+#root {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.content {
+  display: table-row;
+  height: 100%;
+}
+
+.footer {
+} */
+
+/* Sua */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  padding: 15px 5px;
+  height: 8rem;
+  box-shadow: 5px 5px 5px grey;
+  z-index: 100;
+  background: white;
+}
+
+.content {
+}
+
+.footer {
+  padding: 15px 5px;
+  background: #1c1919eb;
+  margin-top: auto;
+  margin-bottom: -18px;
+  display: inline-block;
+}

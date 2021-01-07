@@ -1,0 +1,191 @@
+.cart {
+  width: 95%;
+  margin: 10px auto;
+  padding: 10px;
+  line-height: 50px;
+}
+.cart h4 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.title-cart {
+}
+
+.title-cart,
+.list-product-in-cart {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title-cart li {
+}
+
+.list-product-in-cart {
+}
+
+.list-product-in-cart li input {
+  width: 40px;
+  height: 26px;
+  text-align: center;
+}
+
+.list-product-in-cart li {
+  margin-left: -66px;
+}
+.list-product-in-cart li img {
+  width: 80px;
+}
+.info-product-cart {
+  text-align: center;
+  font-size: 21px;
+}
+.info-product-cart a {
+  text-decoration: none;
+  color: black;
+  width: 14rem;
+  display: table;
+  text-align: center;
+}
+
+.size-product-cart {
+  margin-top: 6px;
+}
+.size-product-cart span {
+}
+
+.quantity-product-cart {
+}
+
+.quantity-product-cart ul {
+  list-style-type: none;
+  display: flex;
+}
+.quantity-product-cart ul li {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0px 5px;
+}
+.quantity-product-cart ul li p {
+}
+.quantity-product-cart ul li svg {
+}
+
+.quantity-by-product-in-cart {
+}
+
+.icon-delete-cart {
+  font-size: 25px;
+  color: red;
+  cursor: pointer;
+}
+
+.total-money-by-product-in-cart {
+  font-size: 20px;
+}
+
+.total-cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.total-cart a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 14px 20px;
+  color: wheat;
+  border-radius: 10px;
+  background: #e71314e3;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th {
+  padding: 25px !important;
+  font-size: 22px;
+}
+
+tr {
+  /* This covers the tr elements */
+}
+th,
+td {
+  padding: 10px 26px;
+  border: 1px solid #80808070;
+  text-align: center;
+  box-shadow: 1px 1px 1px 1px #80808000;
+}
+
+table.PerformanceTable {
+  table-layout: fixed;
+  width: 84rem;
+  margin-bottom: 25px;
+}
+
+table.PerformanceTable td.PerformanceCell {
+  width: 75px;
+}
+
+th,
+td img {
+  width: 60%;
+}
+
+.quantity-minus-plus-page-cart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.minus-quantity {
+  cursor: pointer;
+}
+.minus-quantity svg {
+  padding: 10px;
+  display: block;
+}
+.quantity-page-cart {
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  font-weight: bold;
+}
+.plus-quantity,
+.minus-quantity,
+.quantity-page-cart {
+  border: 1px solid gray;
+  border-radius: 18px;
+}
+.plus-quantity svg {
+  padding: 10px;
+  display: block;
+}
+
+.plus-quantity {
+  cursor: pointer;
+}
+
+.clear-cart {
+  border: 1px solid gray;
+  padding: 11px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.empty-cart {
+  text-align: center;
+  font-size: 25px;
+}
+.empty-cart p {
+}
+.empty-cart a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}

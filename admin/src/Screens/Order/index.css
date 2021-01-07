@@ -1,0 +1,181 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th {
+}
+tr {
+}
+th,
+td {
+  padding: 20px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+table.PerformanceTable {
+  table-layout: fixed;
+  width: 50rem;
+}
+
+table.PerformanceTable td.PerformanceCell {
+  width: 75px;
+}
+tr td {
+  line-height: 20px !important;
+}
+
+.info-order-in-page-order {
+  color: white;
+  padding: 0px 20px;
+}
+.info-order-in-page-order h4 {
+  text-transform: capitalize;
+}
+
+.backgroud-account.b-order {
+  right: 0px;
+}
+
+.TableHeader.id-order,
+.TableHeader.name-order,
+.TableHeader.image-order,
+.TableHeader.qty-order,
+.TableHeader.price-order {
+  width: 10rem !important;
+}
+
+.TableHeader.qty-order {
+  width: 3rem !important;
+}
+.TableHeader.price-order {
+  width: 8rem !important;
+}
+
+.info-order {
+}
+
+.info-order table {
+  width: 99% !important;
+}
+
+.name-order,
+.phone-order,
+.address-order {
+  margin: 15px 0px;
+}
+
+.name-order b,
+.phone-order b,
+.address-order b {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.name-order span,
+.phone-order span,
+.address-order span {
+  text-transform: capitalize;
+  font-size: 22px;
+}
+
+.header-order {
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+.left-detail-order {
+  width: 24rem;
+  padding-left: 13px;
+}
+.right-detail-order {
+}
+.total-money-order {
+  /* text-align: center; */
+}
+.total-money-order b {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.total-money-order span {
+  font-size: 23px;
+}
+.status-payment-order {
+}
+.address-order span {
+  width: 23rem;
+  display: inline-flex;
+}
+.success-order {
+  border: 1px solid gray;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px 10px;
+  float: left;
+  margin: 5px 10px;
+  cursor: pointer;
+  width: 14rem;
+}
+
+.active-order {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.confirm-order {
+  border: 1px solid gray;
+  font-size: 20px;
+  padding: 5px 10px;
+  float: left;
+  margin: 5px;
+  cursor: pointer;
+  text-transform: capitalize;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  background: black;
+  font-weight: bold;
+}
+.success-order.active-order.one {
+}
+
+.td-address-order {
+  display: block;
+  border: none !important;
+  line-height: 42px !important;
+  text-transform: capitalize;
+  padding: 0px 20px !important;
+  padding-top: 28px !important;
+}
+
+.class-tr-detail-order {
+  color: white;
+  font-weight: bold;
+  height: 20px;
+  display: table;
+  margin-top: 46px;
+  border: none !important;
+  line-height: 31px !important;
+  text-transform: capitalize;
+}
+
+.save-order,
+.delete-order {
+  border: 1px solid gray;
+  margin: 17px 10px;
+  width: 15rem;
+  text-align: center;
+  background: #3a5f5763;
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  float: left;
+}
+.save-order {
+}
+.delete-order {
+}
+
+.button-order{}

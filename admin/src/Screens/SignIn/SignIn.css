@@ -1,0 +1,15 @@
+.card {
+  padding: 10px 20px;
+  box-shadow: 5px 5px 5px 5px gray;
+  margin-top: 50px;
+}
+
+.card-signin {
+  margin: 100px auto !important;
+  width: 500px;
+  margin-left: 307px !important;
+}
+
+.error-admin {
+  color: #b91f1f !important;
+}

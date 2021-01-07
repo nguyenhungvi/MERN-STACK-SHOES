@@ -1,0 +1,98 @@
+.right-product-by-category {
+}
+
+.list-product-by-category-right {
+  position: relative;
+}
+
+.list-product-by-category-right ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin-left: -1px;
+}
+
+.list-product-by-category-right ul li {
+  width: 32%;
+  box-shadow: 1px 5px 9px 1px grey;
+  /* margin-left: -12px; */
+  border-radius: 10px;
+  margin-bottom: 16px;
+  margin: 0px 7px;
+}
+
+.one-product-by-category-right {
+  padding: 12px;
+  position: relative;
+  line-height: 40px;
+}
+
+.one-product-by-category-right a {
+  width: 100%;
+}
+
+.one-product-by-category-right a img {
+  width: 100%;
+}
+
+.percent-discount-product-safe-off-page-category-right {
+  position: absolute;
+  background: red;
+  padding: 5px 10px;
+  top: 10px;
+  left: 7px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  z-index: 5;
+  color: yellow;
+}
+
+.percent-discount-product-safe-off-page-category-right a {
+}
+.percent-discount-product-safe-off-page-category-right a img {
+}
+
+.name-by-product-safe-off-page-category-right {
+  text-align: center;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.star-by-product-in-category-right {
+  text-align: center;
+}
+
+.star-by-product-in-category-right svg {
+  font-size: 25px;
+}
+
+.price-by-product-in-category-right {
+  text-align: center;
+  line-height: 31px;
+  font-size: 30px;
+}
+
+.price-by-product-in-category-safe-off-right {
+  margin: 0px 10px;
+  position: relative;
+}
+
+.safe-off-price-old-in-category-right {
+  border-bottom: 2px solid black;
+  display: block;
+  width: 105px;
+  position: absolute;
+  top: 10px;
+  left: -6px;
+}
+
+.price-cost-in-category-right {
+  margin: 0px 10px;
+}
+
+.no-find-product-page {
+  margin: 10px auto;
+  font-size: 21px;
+  font-weight: bold;
+}

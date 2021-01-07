@@ -1,0 +1,24 @@
+.input {
+  width: 20rem;
+  border: 1px solid gray;
+  margin-top: 30px;
+  position: relative;
+  display: table;
+  padding: 5px 21px;
+  height: 3rem;
+}
+.input label {
+  position: absolute;
+  top: -16px;
+  left: 30px;
+  z-index: 10;
+  background: white;
+  padding: 4px;
+}
+.input input#outlined_name {
+  width: 100%;
+  font-size: 18px;
+  padding-left: 10px;
+  border: none !important;
+  border-bottom: 1px solid black !important;
+}

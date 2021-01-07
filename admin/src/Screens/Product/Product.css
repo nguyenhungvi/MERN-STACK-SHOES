@@ -1,0 +1,170 @@
+.page {
+  margin-top: 100px;
+}
+
+tr th,
+tr td {
+  text-align: center;
+}
+
+tr td {
+  /* line-height: 100px; */
+  line-height: 123px !important;
+}
+
+.list-images-product {
+  border: 1px dotted gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+
+.image-product {
+  width: 150px;
+  margin: 10px;
+  background-size: cover;
+  display: block;
+  border: 1px solid #ff000045;
+}
+
+.click-image {
+  width: 100px;
+  height: 100px;
+  border: 1px dotted gray;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.form-label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.table-image-category {
+  width: 100px;
+  height: 100px;
+}
+
+.size {
+  margin-top: -20px;
+}
+
+.carousel.slide {
+  height: 150px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: none;
+  opacity: 0;
+}
+
+.carousel-indicators .active {
+  opacity: 0;
+}
+
+.carousel-indicators li {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  /* background-clip: padding-box; */
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.pagination {
+  list-style-type: none;
+  margin-top: 10px;
+  float: right;
+  padding: 10px;
+}
+
+.pagination li {
+  float: left;
+}
+
+.pagination li a {
+  text-decoration: none;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid gray;
+  padding: 6px 10px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  color: #191917;
+  background-color: #efecec;
+}
+
+.pagination li.active a {
+  background-color: #aacc93;
+}
+
+.pagination li.disabled a {
+  cursor: initial;
+  opacity: 0.7;
+}
+
+.one-image-in-list-image {
+  position: relative;
+}
+
+.delete-image-product {
+  position: absolute;
+  border: 1px solid red;
+  background: red;
+  border-radius: 50%;
+  padding: 1px 10px;
+  color: yellow;
+  cursor: pointer;
+  right: 9px;
+  font-size: 18px;
+  font-weight: bold;
+  top: 11px;
+  text-align: center;
+  z-index: 10;
+}
+
+#formBasicCategory {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.list-image-in-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.list-image-in-product img {
+  width: 130px !important;
+  margin: 10px;
+}
+
+.list-size-detail {
+}
+.list-size-detail tbody tr {
+}
+.list-size-detail tbody tr td {
+}
+
+.class-tbody-product {
+}
+.class-tbody-product tr {
+}
+.class-tbody-product tr td {
+  line-height: 30px!important;
+}
